@@ -1,0 +1,8 @@
+<!-- 
+Copyright (c) 2013 8pecxstudios
+Use of this code is strictly by permissions only even tho its very simple code.
+-->
+	<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<!-- Use Default Branding Icon Keeps Compatibility With Other Variants -->
+		<button id="appmenu-button" image="chrome://branding/content/icon16.png" label=" " />
+	</overlay>

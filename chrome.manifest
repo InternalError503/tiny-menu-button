@@ -1,0 +1,4 @@
+#Copyright (c) 2013 8pecxstudios
+content tiny-menu chrome/content/
+skin tiny-menu classic/1.0 chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://tiny-menu/content/tiny-menu.xul

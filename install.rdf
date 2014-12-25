@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- 
+Copyright (c) 2013 8pecxstudios
+Use of this code is strictly by permissions only even tho its very simple code.
+-->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>tiny-menu@8pecxstudios.com</em:id>
+    <em:version>0.0.1</em:version>
+	<em:type>2</em:type>
+	<em:iconURL>chrome://tiny-menu/skin/icon32.png</em:iconURL>
+	<em:icon64URL>chrome://tiny-menu/skin/icon64.png</em:icon64URL>
+    <!-- Target Application this theme can install into, 
+        with minimum and maximum supported versions. --> 
+		
+    <em:targetApplication>
+      <Description>
+		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>22.0.*</em:minVersion>
+        <em:maxVersion>27.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+	
+	<!-- Front End MetaData -->
+    <em:name>Tiny-Menu</em:name>
+    <em:description>Makes The AppMenu Only Show Program Icon.</em:description>
+	
+    <em:creator>8pecxstudios</em:creator>
+    <em:homepageURL>https://8pecxstudios.com/</em:homepageURL>
+  </Description>      
+</RDF>
