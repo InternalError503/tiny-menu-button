@@ -1,0 +1,14 @@
+#appmenu-button {
+	border-radius: 0 0 4px 4px;
+	padding: 0.1em 1em .05em !important;
+	min-width: 0px !important;
+	margin-bottom: 4px !important;
+}
+
+#main-window:not([tabsintitlebar]) #appmenu-button {
+	margin-bottom: 5px !important;
+}
+
+#main-window[chromemargin^="0,"][sizemode="normal"]:not([inFullscreen="true"]) #navigator-toolbox {
+	padding-top: 4px !important;
+}
