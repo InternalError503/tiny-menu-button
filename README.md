@@ -14,7 +14,8 @@ Tiny Menu Button
     Smaller button with the program icon.
     Good for small screens.
 
-    Changes the default application menu button from text to a smaller button with the program icon.
+    Changes the default application menu button from text to a 
+    smaller button with the program icon.
 
 
 Does not work with Firefox 29+, Does not support Australis.
